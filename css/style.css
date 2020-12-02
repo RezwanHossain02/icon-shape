@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.icon-area ul{
+    list-style: none;
+}
+.icon-area ul li{
+    display: inline-block;
+}
+
+
+.icon-area ul li a{
+    background-color: firebrick;
+    color: thistle;
+    font-size: 35px;
+    padding: 30px 30px;
+   border-radius: 15px;
+   display:block;
+
+}
+
+.icon-area ul li a:hover{
+    background-color: rgb(34, 44, 178);
+    color: rgb(226, 220, 219);
+   border-radius: 60%;
+   transition:0.5s;
+
+
+}
